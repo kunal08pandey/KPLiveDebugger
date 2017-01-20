@@ -1,0 +1,6 @@
+framework module KPLiveDebugger {
+  umbrella header "KPLiveDebugger-umbrella.h"
+
+  export *
+  module * { export * }
+}

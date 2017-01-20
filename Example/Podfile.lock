@@ -1,0 +1,19 @@
+PODS:
+  - KPLiveDebugger (0.1.0):
+    - SwiftyBeaver (= 0.7)
+  - SwiftyBeaver (0.7.0)
+
+DEPENDENCIES:
+  - KPLiveDebugger (from `../`)
+
+EXTERNAL SOURCES:
+  KPLiveDebugger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KPLiveDebugger: 522dde4021c2b1a44ec147ad3b8916b57a2f9f2b
+  SwiftyBeaver: 4e7562d3b6520231b0baac32938b6127a7ae9a59
+
+PODFILE CHECKSUM: 9eff02099bbbaac357fd3cc387a4ef9f5eaf05e2
+
+COCOAPODS: 1.1.1

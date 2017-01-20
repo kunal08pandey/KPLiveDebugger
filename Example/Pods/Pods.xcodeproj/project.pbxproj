@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C9ACD2199A29E3549D1B184B0FB80E1 /* KPLiveDebugger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 873E534081548432FEA78AB097B9A61C /* KPLiveDebugger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25B5C94EAFE9D2F5F1C7B40195AF47EC /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1EC2C4ADD545733DF24ED60A3D4C1 /* FileDestination.swift */; };
+		370964DEF31498B2EC3F645A2CC89DEC /* Pods-KPLiveDebugger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AEFDA80D3FF35E1E32B7F8F55984BE /* Pods-KPLiveDebugger_Example-dummy.m */; };
+		59BD1D7EEEAF133224D5C0C6F30B7686 /* KPLiveDebugger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E74AE0D366F1367E948A458572A105D6 /* KPLiveDebugger-dummy.m */; };
+		5E3385C123762ACC0C8F771CFCA20A93 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA78EB5CA784AEAC86E3F0FD75154DD2 /* SwiftyBeaver-dummy.m */; };
+		73AF355E5618FA1ADB68DA613F0D75A7 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92A82080E9897A561D7734C56E0BCEC /* ConsoleDestination.swift */; };
+		77CC2C7C8CBC973AE4CBA90140792736 /* KPDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62D7226E437531C4B05C738567556D /* KPDebugViewController.swift */; };
+		8D974BA46E1FF9C52862694925475E0F /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3874B9FC61734204AF588F8F612C945A /* SwiftyBeaver.framework */; };
+		92C894888A50E02224A05251081E426D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394379A28CAEB8292EA057BD68AE2435 /* Foundation.framework */; };
+		9BBB040D8989671CA509FDD46D74B674 /* KPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCCCABC25BAFC2088B29E5A4850BD3 /* KPLogger.swift */; };
+		9DC7A707AC99884679E12CCFD45DE20A /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE008E30623232183A1ABB9F97DAFA4 /* BaseDestination.swift */; };
+		A4A31B51343B78A1BD3CCEC7F38EAFEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394379A28CAEB8292EA057BD68AE2435 /* Foundation.framework */; };
+		AAF93DC9DB6582AAC3AE721B5759BB94 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 176B37FB4CDE9A13F139B58B132B71B9 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAEB3D0C87918E1AF777AF5CC4B91E64 /* Pods-KPLiveDebugger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBC5D0D0F6213026BA2D8ACC2CC5044 /* Pods-KPLiveDebugger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3105C6654773122470812B40F049818 /* Pods-KPLiveDebugger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614D273E595F2F3E263F14851482B361 /* Pods-KPLiveDebugger_Tests-dummy.m */; };
+		C9881DCF66E4BB24107CBCB52078B7A0 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A16C4318D99F9CFC83B154A3AA0F8A /* SwiftyBeaver.swift */; };
+		CF5D661D4E2A0AFBD3E4F14A63BD53FE /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F5F7C11DE84BC279EBCC3ED79DEA0A /* SBPlatformDestination.swift */; };
+		D93AA8F01BF75CE5A1F58034722EE0F9 /* KPLoggerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9DEB5D6A7C1EFD423B2EE5AE757DDA /* KPLoggerController.swift */; };
+		E38449A73D764F25B18FD464990D807E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394379A28CAEB8292EA057BD68AE2435 /* Foundation.framework */; };
+		F0692C067E8CC2A348DC3127C12186B1 /* Pods-KPLiveDebugger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4989B9A8785CB8733C3C5FCEE27259C /* Pods-KPLiveDebugger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F300EEB309A81B8C923D1E3EFC516CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394379A28CAEB8292EA057BD68AE2435 /* Foundation.framework */; };
+		F3AD693EA59E5EF30A8CA422983F5481 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644FBF863B9E0E1BCB80F07B553456C /* AES256CBC.swift */; };
+		F41B3B020A7BF4BC21F408149629FFBD /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A3D40FA2933689E3A352C0399B487 /* Filter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F66D828D57B67A48979605667D0AD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02EA168D74DDB07DD617274032B1687E;
+			remoteInfo = SwiftyBeaver;
+		};
+		644E43B0C584875112D518AD5B962F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113A561A728A4E7D7EA024630871ACE8;
+			remoteInfo = KPLiveDebugger;
+		};
+		7C46EC134D465938DE4A3DA4197E0CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02EA168D74DDB07DD617274032B1687E;
+			remoteInfo = SwiftyBeaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C166FA47165332144E38516325E32A /* Pods-KPLiveDebugger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1176A5F689E6FE54DD4EC3FE84BF42E8 /* Pods-KPLiveDebugger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLiveDebugger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14F5F7C11DE84BC279EBCC3ED79DEA0A /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
+		165311666351F7270D33313EB4FF174D /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
+		176B37FB4CDE9A13F139B58B132B71B9 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		177CD44FF7AACC0C9AFFBEE8B8071E40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D933D2D2642E60563AF546C068EFCC6 /* KPLiveDebugger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KPLiveDebugger.modulemap; sourceTree = "<group>"; };
+		1EBC5D0D0F6213026BA2D8ACC2CC5044 /* Pods-KPLiveDebugger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLiveDebugger_Example-umbrella.h"; sourceTree = "<group>"; };
+		2DF9497DA0C7F97CC5A382349DA99252 /* KPLiveDebugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KPLiveDebugger.xcconfig; sourceTree = "<group>"; };
+		355B042168EF1886D45E0962F4A03A05 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3874B9FC61734204AF588F8F612C945A /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394379A28CAEB8292EA057BD68AE2435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A3A2708FED41B4F49E8FA84A3AD7074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7D5465C3431E81433074C45286A231 /* KPLiveDebugger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLiveDebugger-prefix.pch"; sourceTree = "<group>"; };
+		3E443515E6C5CBD743214D0FAE854D49 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		3E9C2CADD50A5755A2E4BE9363A16078 /* Pods-KPLiveDebugger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D9DEB5D6A7C1EFD423B2EE5AE757DDA /* KPLoggerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KPLoggerController.swift; sourceTree = "<group>"; };
+		5402C78D289AF4C6A38E2F5ACFC58528 /* Pods-KPLiveDebugger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLiveDebugger_Tests-resources.sh"; sourceTree = "<group>"; };
+		5A6E0727117F5B0ADE5130FAF06711E7 /* Pods_KPLiveDebugger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPLiveDebugger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		614D273E595F2F3E263F14851482B361 /* Pods-KPLiveDebugger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLiveDebugger_Tests-dummy.m"; sourceTree = "<group>"; };
+		7FFCCCABC25BAFC2088B29E5A4850BD3 /* KPLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KPLogger.swift; sourceTree = "<group>"; };
+		828CA7DABA6F98BFADAACC7CDC719F3C /* Pods-KPLiveDebugger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		829A5F0329D766A2E63894A5E8566301 /* Pods-KPLiveDebugger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLiveDebugger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		873E534081548432FEA78AB097B9A61C /* KPLiveDebugger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLiveDebugger-umbrella.h"; sourceTree = "<group>"; };
+		8E5270F6EF0D0DA5F1929A14FA2D5AFC /* Pods-KPLiveDebugger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E7E9C15E42A18428A068A3C52242AB0 /* Pods-KPLiveDebugger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLiveDebugger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D9DC73DB8E4F1F4F245A372169BACC /* KPLiveDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KPLiveDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984E48519A6FFF59DA4557C972468BA9 /* Pods-KPLiveDebugger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KPLiveDebugger_Tests.modulemap"; sourceTree = "<group>"; };
+		99F2B9A9A900C51D9B8A9C7538B0D0B2 /* Pods_KPLiveDebugger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPLiveDebugger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12599B5FDB9CF8219684C928C5100E1 /* Pods-KPLiveDebugger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KPLiveDebugger_Example.modulemap"; sourceTree = "<group>"; };
+		A2380576CF8B98BD6CC0034D28E76E99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A644FBF863B9E0E1BCB80F07B553456C /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = sources/AES256CBC.swift; sourceTree = "<group>"; };
+		A696F2B1AAF113C9EBB4F4B168F8FA1F /* Pods-KPLiveDebugger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B92A82080E9897A561D7734C56E0BCEC /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = sources/ConsoleDestination.swift; sourceTree = "<group>"; };
+		BA78EB5CA784AEAC86E3F0FD75154DD2 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		BB7117D34F054B950191EAB6C3013AFA /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		D505D80F883DE52701D0E4CE2AB60127 /* Pods-KPLiveDebugger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D5AEFDA80D3FF35E1E32B7F8F55984BE /* Pods-KPLiveDebugger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLiveDebugger_Example-dummy.m"; sourceTree = "<group>"; };
+		D89A3D40FA2933689E3A352C0399B487 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = sources/Filter.swift; sourceTree = "<group>"; };
+		D93DA5E21DCDAB58CC30C505AA2BA8E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A16C4318D99F9CFC83B154A3AA0F8A /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		DFE008E30623232183A1ABB9F97DAFA4 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = sources/BaseDestination.swift; sourceTree = "<group>"; };
+		E4989B9A8785CB8733C3C5FCEE27259C /* Pods-KPLiveDebugger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLiveDebugger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E74AE0D366F1367E948A458572A105D6 /* KPLiveDebugger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KPLiveDebugger-dummy.m"; sourceTree = "<group>"; };
+		ED03006D1B868AC0D7AE9911AEEFEB9B /* Pods-KPLiveDebugger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLiveDebugger_Example-resources.sh"; sourceTree = "<group>"; };
+		F2A1EC2C4ADD545733DF24ED60A3D4C1 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = sources/FileDestination.swift; sourceTree = "<group>"; };
+		F5E16A4B27304AF8277B21D4F6BE745A /* Pods-KPLiveDebugger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLiveDebugger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FB62D7226E437531C4B05C738567556D /* KPDebugViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KPDebugViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0DA6B3AD2A3B501E553CBFBC996610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C894888A50E02224A05251081E426D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E22CB945E7C4BBB39A4AAF87C01C72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A31B51343B78A1BD3CCEC7F38EAFEC /* Foundation.framework in Frameworks */,
+				8D974BA46E1FF9C52862694925475E0F /* SwiftyBeaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF8C10F185CD874F5D873FB36038AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38449A73D764F25B18FD464990D807E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A20C178DBBAEA3D0D03F7B9152995B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F300EEB309A81B8C923D1E3EFC516CAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0154CB0B0B05763684A2D9FA4D76A9BA /* Pods-KPLiveDebugger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3A2708FED41B4F49E8FA84A3AD7074 /* Info.plist */,
+				984E48519A6FFF59DA4557C972468BA9 /* Pods-KPLiveDebugger_Tests.modulemap */,
+				829A5F0329D766A2E63894A5E8566301 /* Pods-KPLiveDebugger_Tests-acknowledgements.markdown */,
+				3E9C2CADD50A5755A2E4BE9363A16078 /* Pods-KPLiveDebugger_Tests-acknowledgements.plist */,
+				614D273E595F2F3E263F14851482B361 /* Pods-KPLiveDebugger_Tests-dummy.m */,
+				8E7E9C15E42A18428A068A3C52242AB0 /* Pods-KPLiveDebugger_Tests-frameworks.sh */,
+				5402C78D289AF4C6A38E2F5ACFC58528 /* Pods-KPLiveDebugger_Tests-resources.sh */,
+				E4989B9A8785CB8733C3C5FCEE27259C /* Pods-KPLiveDebugger_Tests-umbrella.h */,
+				A696F2B1AAF113C9EBB4F4B168F8FA1F /* Pods-KPLiveDebugger_Tests.debug.xcconfig */,
+				828CA7DABA6F98BFADAACC7CDC719F3C /* Pods-KPLiveDebugger_Tests.release.xcconfig */,
+			);
+			name = "Pods-KPLiveDebugger_Tests";
+			path = "Target Support Files/Pods-KPLiveDebugger_Tests";
+			sourceTree = "<group>";
+		};
+		1F9F90DD5D6C58C99A94392EEA892D69 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5DE47E3DED890545120BF83274F76BAF /* Logger */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A26F018D07F327F729C26ACCFA99203 /* Pods-KPLiveDebugger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				177CD44FF7AACC0C9AFFBEE8B8071E40 /* Info.plist */,
+				A12599B5FDB9CF8219684C928C5100E1 /* Pods-KPLiveDebugger_Example.modulemap */,
+				1176A5F689E6FE54DD4EC3FE84BF42E8 /* Pods-KPLiveDebugger_Example-acknowledgements.markdown */,
+				05C166FA47165332144E38516325E32A /* Pods-KPLiveDebugger_Example-acknowledgements.plist */,
+				D5AEFDA80D3FF35E1E32B7F8F55984BE /* Pods-KPLiveDebugger_Example-dummy.m */,
+				F5E16A4B27304AF8277B21D4F6BE745A /* Pods-KPLiveDebugger_Example-frameworks.sh */,
+				ED03006D1B868AC0D7AE9911AEEFEB9B /* Pods-KPLiveDebugger_Example-resources.sh */,
+				1EBC5D0D0F6213026BA2D8ACC2CC5044 /* Pods-KPLiveDebugger_Example-umbrella.h */,
+				8E5270F6EF0D0DA5F1929A14FA2D5AFC /* Pods-KPLiveDebugger_Example.debug.xcconfig */,
+				D505D80F883DE52701D0E4CE2AB60127 /* Pods-KPLiveDebugger_Example.release.xcconfig */,
+			);
+			name = "Pods-KPLiveDebugger_Example";
+			path = "Target Support Files/Pods-KPLiveDebugger_Example";
+			sourceTree = "<group>";
+		};
+		3CAED09024FF5BDC0EFE72F9378C98BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D93DA5E21DCDAB58CC30C505AA2BA8E1 /* Info.plist */,
+				165311666351F7270D33313EB4FF174D /* SwiftyBeaver.modulemap */,
+				BB7117D34F054B950191EAB6C3013AFA /* SwiftyBeaver.xcconfig */,
+				BA78EB5CA784AEAC86E3F0FD75154DD2 /* SwiftyBeaver-dummy.m */,
+				3E443515E6C5CBD743214D0FAE854D49 /* SwiftyBeaver-prefix.pch */,
+				176B37FB4CDE9A13F139B58B132B71B9 /* SwiftyBeaver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
+		4F587EA5B7C360F2943B4833BBDF6E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97D9DC73DB8E4F1F4F245A372169BACC /* KPLiveDebugger.framework */,
+				99F2B9A9A900C51D9B8A9C7538B0D0B2 /* Pods_KPLiveDebugger_Example.framework */,
+				5A6E0727117F5B0ADE5130FAF06711E7 /* Pods_KPLiveDebugger_Tests.framework */,
+				355B042168EF1886D45E0962F4A03A05 /* SwiftyBeaver.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505C35E18FA02943C48CE2C462194922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3874B9FC61734204AF588F8F612C945A /* SwiftyBeaver.framework */,
+				6704D0910A0C2C09240BE399FE2FB44B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57431246F9279161DF269FE4A87B5D62 /* KPLiveDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F90DD5D6C58C99A94392EEA892D69 /* Classes */,
+			);
+			path = KPLiveDebugger;
+			sourceTree = "<group>";
+		};
+		5A0E69818A52099E70038D9716B834EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8405D683521CED858F757F7FB51AB99 /* KPLiveDebugger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5DE47E3DED890545120BF83274F76BAF /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				FB62D7226E437531C4B05C738567556D /* KPDebugViewController.swift */,
+				7FFCCCABC25BAFC2088B29E5A4850BD3 /* KPLogger.swift */,
+				4D9DEB5D6A7C1EFD423B2EE5AE757DDA /* KPLoggerController.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		6704D0910A0C2C09240BE399FE2FB44B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				394379A28CAEB8292EA057BD68AE2435 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5A0E69818A52099E70038D9716B834EF /* Development Pods */,
+				505C35E18FA02943C48CE2C462194922 /* Frameworks */,
+				A1D590674E4BC43D2AAA913243117EB3 /* Pods */,
+				4F587EA5B7C360F2943B4833BBDF6E05 /* Products */,
+				C4BBA2BFFBC486D06F96539B1D5DBB89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D5CF3888D40AEEE2ED013B38046492 /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				A644FBF863B9E0E1BCB80F07B553456C /* AES256CBC.swift */,
+				DFE008E30623232183A1ABB9F97DAFA4 /* BaseDestination.swift */,
+				B92A82080E9897A561D7734C56E0BCEC /* ConsoleDestination.swift */,
+				F2A1EC2C4ADD545733DF24ED60A3D4C1 /* FileDestination.swift */,
+				D89A3D40FA2933689E3A352C0399B487 /* Filter.swift */,
+				14F5F7C11DE84BC279EBCC3ED79DEA0A /* SBPlatformDestination.swift */,
+				D9A16C4318D99F9CFC83B154A3AA0F8A /* SwiftyBeaver.swift */,
+				3CAED09024FF5BDC0EFE72F9378C98BA /* Support Files */,
+			);
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		A1D590674E4BC43D2AAA913243117EB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5CF3888D40AEEE2ED013B38046492 /* SwiftyBeaver */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A616631EFFE2EDB24B2F28289FAB9DDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2380576CF8B98BD6CC0034D28E76E99 /* Info.plist */,
+				1D933D2D2642E60563AF546C068EFCC6 /* KPLiveDebugger.modulemap */,
+				2DF9497DA0C7F97CC5A382349DA99252 /* KPLiveDebugger.xcconfig */,
+				E74AE0D366F1367E948A458572A105D6 /* KPLiveDebugger-dummy.m */,
+				3A7D5465C3431E81433074C45286A231 /* KPLiveDebugger-prefix.pch */,
+				873E534081548432FEA78AB097B9A61C /* KPLiveDebugger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KPLiveDebugger";
+			sourceTree = "<group>";
+		};
+		C4BBA2BFFBC486D06F96539B1D5DBB89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A26F018D07F327F729C26ACCFA99203 /* Pods-KPLiveDebugger_Example */,
+				0154CB0B0B05763684A2D9FA4D76A9BA /* Pods-KPLiveDebugger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8405D683521CED858F757F7FB51AB99 /* KPLiveDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				57431246F9279161DF269FE4A87B5D62 /* KPLiveDebugger */,
+				A616631EFFE2EDB24B2F28289FAB9DDE /* Support Files */,
+			);
+			name = KPLiveDebugger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3042D390E5442F3A6649C3112307D93D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0692C067E8CC2A348DC3127C12186B1 /* Pods-KPLiveDebugger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5F720558615A132F2971B9A1F255EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9ACD2199A29E3549D1B184B0FB80E1 /* KPLiveDebugger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495B50D25B948DCD5614E53F6F8F86A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF93DC9DB6582AAC3AE721B5759BB94 /* SwiftyBeaver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9CFC99ABC6F33EA3DDDE400E07EF0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB3D0C87918E1AF777AF5CC4B91E64 /* Pods-KPLiveDebugger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02EA168D74DDB07DD617274032B1687E /* SwiftyBeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD12E854D02701F924FD97FBAED18F26 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildPhases = (
+				BADB3E8AACFEFC18EE090C5157575B7C /* Sources */,
+				4D0DA6B3AD2A3B501E553CBFBC996610 /* Frameworks */,
+				9495B50D25B948DCD5614E53F6F8F86A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = 355B042168EF1886D45E0962F4A03A05 /* SwiftyBeaver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		113A561A728A4E7D7EA024630871ACE8 /* KPLiveDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317511651392B04F19561FFEA28C1820 /* Build configuration list for PBXNativeTarget "KPLiveDebugger" */;
+			buildPhases = (
+				B2BBDA12661C2A22FF2904E2BBCD574B /* Sources */,
+				8E22CB945E7C4BBB39A4AAF87C01C72D /* Frameworks */,
+				5C5F720558615A132F2971B9A1F255EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0770CADF5C43A9D88650AE89B0DE4C0E /* PBXTargetDependency */,
+			);
+			name = KPLiveDebugger;
+			productName = KPLiveDebugger;
+			productReference = 97D9DC73DB8E4F1F4F245A372169BACC /* KPLiveDebugger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FBE4A5DCC67FEA6251AB1BA10AF51BA /* Pods-KPLiveDebugger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8361EBC55BB8AB263A7BE129BFBE498F /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Tests" */;
+			buildPhases = (
+				D60E7D2848C4C8467DFB83A9B66560E0 /* Sources */,
+				AAF8C10F185CD874F5D873FB36038AB2 /* Frameworks */,
+				3042D390E5442F3A6649C3112307D93D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KPLiveDebugger_Tests";
+			productName = "Pods-KPLiveDebugger_Tests";
+			productReference = 5A6E0727117F5B0ADE5130FAF06711E7 /* Pods_KPLiveDebugger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37A7B7BE3490AD3BF3467298895B0E1E /* Pods-KPLiveDebugger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ADE112F26898AA4BE3561DCE21B0EE /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Example" */;
+			buildPhases = (
+				C5C0A28DD9F068B9B56FA1A4772C8A06 /* Sources */,
+				F9A20C178DBBAEA3D0D03F7B9152995B /* Frameworks */,
+				BD9CFC99ABC6F33EA3DDDE400E07EF0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703528420F1EF2142E90E6DF07089C0A /* PBXTargetDependency */,
+				A40629BBB09919B749C7722410004E75 /* PBXTargetDependency */,
+			);
+			name = "Pods-KPLiveDebugger_Example";
+			productName = "Pods-KPLiveDebugger_Example";
+			productReference = 99F2B9A9A900C51D9B8A9C7538B0D0B2 /* Pods_KPLiveDebugger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4F587EA5B7C360F2943B4833BBDF6E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113A561A728A4E7D7EA024630871ACE8 /* KPLiveDebugger */,
+				37A7B7BE3490AD3BF3467298895B0E1E /* Pods-KPLiveDebugger_Example */,
+				2FBE4A5DCC67FEA6251AB1BA10AF51BA /* Pods-KPLiveDebugger_Tests */,
+				02EA168D74DDB07DD617274032B1687E /* SwiftyBeaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BBDA12661C2A22FF2904E2BBCD574B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CC2C7C8CBC973AE4CBA90140792736 /* KPDebugViewController.swift in Sources */,
+				59BD1D7EEEAF133224D5C0C6F30B7686 /* KPLiveDebugger-dummy.m in Sources */,
+				9BBB040D8989671CA509FDD46D74B674 /* KPLogger.swift in Sources */,
+				D93AA8F01BF75CE5A1F58034722EE0F9 /* KPLoggerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB3E8AACFEFC18EE090C5157575B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD693EA59E5EF30A8CA422983F5481 /* AES256CBC.swift in Sources */,
+				9DC7A707AC99884679E12CCFD45DE20A /* BaseDestination.swift in Sources */,
+				73AF355E5618FA1ADB68DA613F0D75A7 /* ConsoleDestination.swift in Sources */,
+				25B5C94EAFE9D2F5F1C7B40195AF47EC /* FileDestination.swift in Sources */,
+				F41B3B020A7BF4BC21F408149629FFBD /* Filter.swift in Sources */,
+				CF5D661D4E2A0AFBD3E4F14A63BD53FE /* SBPlatformDestination.swift in Sources */,
+				5E3385C123762ACC0C8F771CFCA20A93 /* SwiftyBeaver-dummy.m in Sources */,
+				C9881DCF66E4BB24107CBCB52078B7A0 /* SwiftyBeaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C0A28DD9F068B9B56FA1A4772C8A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370964DEF31498B2EC3F645A2CC89DEC /* Pods-KPLiveDebugger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60E7D2848C4C8467DFB83A9B66560E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3105C6654773122470812B40F049818 /* Pods-KPLiveDebugger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0770CADF5C43A9D88650AE89B0DE4C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 02EA168D74DDB07DD617274032B1687E /* SwiftyBeaver */;
+			targetProxy = 7C46EC134D465938DE4A3DA4197E0CED /* PBXContainerItemProxy */;
+		};
+		703528420F1EF2142E90E6DF07089C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KPLiveDebugger;
+			target = 113A561A728A4E7D7EA024630871ACE8 /* KPLiveDebugger */;
+			targetProxy = 644E43B0C584875112D518AD5B962F0E /* PBXContainerItemProxy */;
+		};
+		A40629BBB09919B749C7722410004E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 02EA168D74DDB07DD617274032B1687E /* SwiftyBeaver */;
+			targetProxy = 3F66D828D57B67A48979605667D0AD8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C5A1EAF1B09A2011C48DDBA04BAD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF9497DA0C7F97CC5A382349DA99252 /* KPLiveDebugger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KPLiveDebugger/KPLiveDebugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPLiveDebugger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEBUG";
+				PRODUCT_NAME = KPLiveDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27137A8CEB90F333B3DD98CC6B11403B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7117D34F054B950191EAB6C3013AFA /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E5460A605F7CEE799E5634760A074D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A696F2B1AAF113C9EBB4F4B168F8FA1F /* Pods-KPLiveDebugger_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Pods-KPLiveDebugger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLiveDebugger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A58CB5E7778AF4B85EE7DA53D3EE00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5270F6EF0D0DA5F1929A14FA2D5AFC /* Pods-KPLiveDebugger_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLiveDebugger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F9C4CFD8E1F66A0FDB33BBF02C22C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7117D34F054B950191EAB6C3013AFA /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		913CCCAD81CB98C62F380F11A8830250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828CA7DABA6F98BFADAACC7CDC719F3C /* Pods-KPLiveDebugger_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Pods-KPLiveDebugger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLiveDebugger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD3B776D9ACCC275AEB5147F1FD62AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D505D80F883DE52701D0E4CE2AB60127 /* Pods-KPLiveDebugger_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPLiveDebugger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C62ECDA81FF6AC923C17515324C606F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF9497DA0C7F97CC5A382349DA99252 /* KPLiveDebugger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KPLiveDebugger/KPLiveDebugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPLiveDebugger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEBUG";
+				PRODUCT_NAME = KPLiveDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317511651392B04F19561FFEA28C1820 /* Build configuration list for PBXNativeTarget "KPLiveDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62ECDA81FF6AC923C17515324C606F2 /* Debug */,
+				03C5A1EAF1B09A2011C48DDBA04BAD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ADE112F26898AA4BE3561DCE21B0EE /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A58CB5E7778AF4B85EE7DA53D3EE00E /* Debug */,
+				BD3B776D9ACCC275AEB5147F1FD62AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8361EBC55BB8AB263A7BE129BFBE498F /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5460A605F7CEE799E5634760A074D6 /* Debug */,
+				913CCCAD81CB98C62F380F11A8830250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD12E854D02701F924FD97FBAED18F26 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9C4CFD8E1F66A0FDB33BBF02C22C58 /* Debug */,
+				27137A8CEB90F333B3DD98CC6B11403B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

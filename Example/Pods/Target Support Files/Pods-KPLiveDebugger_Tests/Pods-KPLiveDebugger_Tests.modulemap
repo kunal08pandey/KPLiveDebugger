@@ -1,0 +1,6 @@
+framework module Pods_KPLiveDebugger_Tests {
+  umbrella header "Pods-KPLiveDebugger_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
