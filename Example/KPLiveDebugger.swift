@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import KPLiveDebugger
+
+let log = KPLogger.self
+
+public func print(items: Any..., separator: String = " ", terminator: String = "\n") {
+    #if LDEBUG
+        KPLiveDebugger.print(items, separator: separator, terminator: terminator)
+    #else
+        Swift.print(items, separator: separator, terminator: terminator)
+    #endif
+}

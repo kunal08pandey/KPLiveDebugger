@@ -1,6 +1,6 @@
 //
-//  MSLogger.swift
-//  MakaanSeller
+//  KPLogger.swift
+//  KPLiveDebugger
 //
 //  Created by Kunal Pandey on 01/20/2017.
 //  Copyright © 2017 Kunal Pandey. All rights reserved.
@@ -10,34 +10,33 @@ import UIKit
 import SwiftyBeaver
 
 var enableOnScreenLog = false
-
-let KPLoggerDidLoggedNotification = "MSLoggerDidLoggedNotification"
+let KPLoggerDidLoggedNotification = "KPLoggerDidLoggedNotification"
 public class KPLogger: SwiftyBeaver {
     
     // MARK:- Swifty setup
-    class func setup() {
+    public class func setup() {
         let console = ConsoleDestination()  // log to Xcode Console
         #if DEBUG
-            console.minLevel = MSLogger.Level.Verbose
+            console.minLevel = KPLogger.Level.Verbose
         #else
-            console.minLevel = MSLogger.Level.Error
+            console.minLevel = KPLogger.Level.Error
         #endif
         // swift 2.3 has no colored attribute
 //        console.colored = true
-        let onScreen = ScreenDestination(delegate: OnScreenLog)
+        let onScreen = KPScreenDestination(delegate: OnScreenLog)
         log.addDestination(console)
         log.addDestination(onScreen)
     }
     
 }
 
-class ScreenDestination : BaseDestination {
+class KPScreenDestination : BaseDestination {
 
     override var defaultHashValue: Int {return 3}
 
-    weak var delegate:ScreenLogDelegate?
+    weak var delegate:KPScreenLogDelegate?
 
-    init(delegate:ScreenLogDelegate) {
+    init(delegate:KPScreenLogDelegate) {
         super.init()
         self.delegate = delegate
     }
@@ -53,14 +52,13 @@ class ScreenDestination : BaseDestination {
 }
 
 
-protocol ScreenLogDelegate : NSObjectProtocol {
+protocol KPScreenLogDelegate : NSObjectProtocol {
     
     func logged(string:String)
 }
 
-func print(items: Any..., separator: String = "", terminator: String = "") {
-    #if DEBUG
-        log.info(items)
-        Swift.print(items, separator: separator, terminator: terminator)
-    #endif
+let log = KPLogger.self
+
+public func print(items: Any..., separator: String = " ", terminator: String = "\n") {
+    log.info(items)
 }

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KPLiveDebugger'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KPLiveDebugger.'
+  s.summary          = 'KPLiveDebugger is a live onScreen debugger which can show logs on screen'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/KPLiveDebugger'
+#  s.description      = <<-DESC
+  s.homepage         = 'https://github.com/kunal08pandey/KPLiveDebugger'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kunal Pandey' => 'kunal08.pandey@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/KPLiveDebugger.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kunal08pandey/KPLiveDebugger.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +35,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SwiftyBeaver', '0.7'
 end

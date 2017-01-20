@@ -8,28 +8,34 @@
 
 import UIKit
 
-class KPDebugViewController: UIViewController {
+public class KPDebugViewController: UIViewController {
 
-    override func viewDidLoad() {
+    private var debugGesture:UITapGestureRecognizer?
+    override public func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupDebugEnvironment()
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: - OnScreen Log Debugging
+    func setupDebugEnvironment() {
+        #if Distribution
+            return
+        #else
+            debugGesture = UITapGestureRecognizer(target: self, action: #selector(KPDebugViewController.startDebuggging))
+            debugGesture?.numberOfTouchesRequired = 2
+            debugGesture?.numberOfTapsRequired = 7
+            self.view.addGestureRecognizer(debugGesture!)
+        #endif
     }
-    */
-
+    
+    func startDebuggging() {
+        OnScreenLog.showLogger()
+    }
+   
 }

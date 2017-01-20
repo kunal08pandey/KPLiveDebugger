@@ -1,6 +1,6 @@
 //
-//  MSLoggerController.swift
-//  MakaanSeller
+//  KPLoggerController.swift
+//  KPLiveDebugger
 //
 //  Created by Kunal Pandey on 01/20/2017.
 //  Copyright © 2017 Kunal Pandey. All rights reserved.
@@ -9,18 +9,18 @@
 import UIKit
 
 
-let OnScreenLog = MSLoggerController.defaultController()
+let OnScreenLog = KPLoggerController.defaultController()
 
-class MSLoggerController: UIViewController,ScreenLogDelegate {
+class KPLoggerController: UIViewController,KPScreenLogDelegate {
 
     private var debugTextView:UITextView!
     private var crossButton:UIButton!
     private var clearButton:UIButton!
-    private static var controller:MSLoggerController!
+    private static var controller:KPLoggerController!
  
-    class func defaultController()->MSLoggerController {
+    class func defaultController()->KPLoggerController {
         if controller == nil {
-            controller = MSLoggerController()
+            controller = KPLoggerController()
             controller.debugTextView = controller.getDebugTextView()
             controller.crossButton = controller.getCrossButton()
             controller.clearButton = controller.getClearButton()
@@ -29,7 +29,7 @@ class MSLoggerController: UIViewController,ScreenLogDelegate {
             controller.view.addSubview(controller.clearButton)
             controller.view.backgroundColor = UIColor(white: 0.0, alpha: 0.5)
         }
-        controller.view.frame = CGRect(x: 0, y: 0, width: controller.view.width, height: controller.view.height - TabBarHeight)
+        controller.view.frame = UIScreen.mainScreen().bounds
         return controller
     }
     
@@ -40,7 +40,7 @@ class MSLoggerController: UIViewController,ScreenLogDelegate {
     
     func getDebugTextView()->UITextView {
         if debugTextView == nil {
-            debugTextView = UITextView(frame: CGRect(x: 50, y: 50, width: self.view.width - 100, height: self.view.height - 100))
+            debugTextView = UITextView(frame: CGRect(x: 30, y: 40, width: self.view.frame.size.width - 60, height: self.view.frame.size.height - 80))
             debugTextView.editable = false
         }
         return debugTextView
@@ -49,9 +49,9 @@ class MSLoggerController: UIViewController,ScreenLogDelegate {
     func getCrossButton()->UIButton {
         if crossButton == nil{
             crossButton = UIButton(type: .Custom)
-            crossButton.frame = CGRect(x: self.view.width - 54, y: 10, width: 44, height: 44)
+            crossButton.frame = CGRect(x: self.view.frame.size.width - 54, y: 10, width: 44, height: 44)
             crossButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-            crossButton.addTarget(self, action: #selector(MSLoggerController.dismiss), forControlEvents: UIControlEvents.TouchUpInside)
+            crossButton.addTarget(self, action: #selector(KPLoggerController.dismiss), forControlEvents: UIControlEvents.TouchUpInside)
             crossButton.setTitle("X", forState: UIControlState.Normal)
         }
         return crossButton
@@ -62,7 +62,7 @@ class MSLoggerController: UIViewController,ScreenLogDelegate {
             clearButton = UIButton(type: .Custom)
             clearButton.frame = CGRect(x: 0, y: 10, width: 74, height: 44)
             clearButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-            clearButton.addTarget(self, action: #selector(MSLoggerController.clearLogs), forControlEvents: UIControlEvents.TouchUpInside)
+            clearButton.addTarget(self, action: #selector(KPLoggerController.clearLogs), forControlEvents: UIControlEvents.TouchUpInside)
             clearButton.setTitle("clear", forState: UIControlState.Normal)
         }
         return clearButton
