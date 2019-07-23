@@ -19,7 +19,7 @@ public class KPLogger: SwiftyBeaver {
     #if DEBUG
       console.minLevel = KPLogger.Level.verbose
     #else
-      console.minLevel = KPLogger.Level.Error
+      console.minLevel = KPLogger.Level.error
     #endif
     // swift 2.3 has no colored attribute
     console.useTerminalColors = true
