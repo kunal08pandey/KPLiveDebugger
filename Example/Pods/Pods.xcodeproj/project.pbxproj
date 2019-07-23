@@ -7,61 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25227A30B89433BC9E24BE52BDF66128 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89020B7D428354CEF6EC5C079D4F80B /* Foundation.framework */; };
-		337E4437FA2600C458A66AE9D7C200EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89020B7D428354CEF6EC5C079D4F80B /* Foundation.framework */; };
-		3755DCC76A53A6F96F17AD0805A66116 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED24D091F14BB12A76ECBDC9BA68A3 /* AES256CBC.swift */; };
-		3B88918F7A69D06238F367127D279C22 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A90987AA278B0AC7EF3207DDC2480A5 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		521A26349F610273C6BF6A4F8C5CF927 /* Pods-KPLiveDebugger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B42B57FDB7A97CF4B8E6ED13E4B8A6 /* Pods-KPLiveDebugger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D421C0D637925B73B65B706726BE983 /* KPLoggerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCCAAA7F4288DF089DF823711C2FE0 /* KPLoggerController.swift */; };
-		60BEFDD089F4E50ED6484D9A5A004314 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46021EEC9D7360F22146011B7762C8EF /* FileDestination.swift */; };
-		69F50EFE52AD305DCBDF53AC3113B4E5 /* Pods-KPLiveDebugger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 575C85B1472B265650120D635E3921BA /* Pods-KPLiveDebugger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D7E880768C51462CE2129C6B6792274 /* KPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66FC861EC45C98347F1ABE2DF0E92C /* KPLogger.swift */; };
-		855AD62554DA816E92C6C0DEF4F2E4A3 /* Pods-KPLiveDebugger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8299807F64DCAA998FA6CBB0EDF1041E /* Pods-KPLiveDebugger_Tests-dummy.m */; };
-		87A0D77265C0C5DEFD51DE64FD8DEEB2 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F8047CC938E6CE55FE49430E070E38 /* SwiftyBeaver-dummy.m */; };
-		89EEE6EF0D5B6722E30356A67557C29F /* KPDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB721C0D400C5091DA890DA4DEFE43 /* KPDebugViewController.swift */; };
-		8F6172BEED76BE6604ADEB90CB16F62D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9298ADCA6D1BA4A10E51AC3B1EA17 /* Extensions.swift */; };
-		92A427C1E5FBA491E73E31C5EFB8EAF7 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA17F7C3A99896C663E9D33E93FE06 /* Filter.swift */; };
-		9FC5FBD024B117E432FA3F0E5528EEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89020B7D428354CEF6EC5C079D4F80B /* Foundation.framework */; };
-		AE5399B8D01AD84369AFE5C26C2C1BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89020B7D428354CEF6EC5C079D4F80B /* Foundation.framework */; };
-		AED5C478EBC88CC8BF7C5DD6491BC1B6 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DF794E32ABD43855353E1EBD67C30 /* Base64.swift */; };
-		B1A0F82FFDDEBCE4D2A8A2466F339D64 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569EAAEA2F0AB8EEC166B3F9AA690DD /* SwiftyBeaver.swift */; };
-		BC6F7A6F94264EF0A28A9B46CDB69EE1 /* KPLiveDebugger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66660B19CADD2A6A5C9BD9FD2B2A8F38 /* KPLiveDebugger-dummy.m */; };
-		BDD7DB1BC9821280751A79C256A95843 /* Pods-KPLiveDebugger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83175AB16F985DF89D37CA9E336CC150 /* Pods-KPLiveDebugger_Example-dummy.m */; };
-		C1AF42E29AC16A5725F2CAA198189082 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C79A21228F7911008AF5E2B5FDC727 /* SwiftyBeaver.framework */; };
-		C2EB3D7E53BEB9DD0F8B09D50D1AA514 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264C4C3148D9B1FB335769869CF66CF /* SBPlatformDestination.swift */; };
-		C39490FFB4787B92799065E8745CB014 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B6442F079B96CDC6177D73801093C /* GoogleCloudDestination.swift */; };
-		D1000919128AE7997F93F36309E9E3B9 /* KPLiveDebugger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA8ADFF7D417A2698BC41830169F209 /* KPLiveDebugger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F828A27656108FB87EA55AD2650F23EF /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040A5D919162999B8F1533316971925 /* ConsoleDestination.swift */; };
-		FF9E36A12DD5EFC28EA3D169A1F65E9A /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E9A090B86D7A60A17BA70C8BC4428B /* BaseDestination.swift */; };
+		0E110E6702094DE10C5C55FBD6FDA208 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9298ADCA6D1BA4A10E51AC3B1EA17 /* Extensions.swift */; };
+		25227A30B89433BC9E24BE52BDF66128 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158CF398A3452D1E8E5195C0E5B51BD9 /* Foundation.framework */; };
+		2FA24F1144BB687E87E6F8D02345AD10 /* KPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66FC861EC45C98347F1ABE2DF0E92C /* KPLogger.swift */; };
+		337E4437FA2600C458A66AE9D7C200EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158CF398A3452D1E8E5195C0E5B51BD9 /* Foundation.framework */; };
+		3B88918F7A69D06238F367127D279C22 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 499BB06402921C20E045A15084552E5E /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462492ECC8DCC1AA29261EF6E109D9D3 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569EAAEA2F0AB8EEC166B3F9AA690DD /* SwiftyBeaver.swift */; };
+		4A2119C3B43C81166D0D1968850EE137 /* KPLoggerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCCAAA7F4288DF089DF823711C2FE0 /* KPLoggerController.swift */; };
+		521A26349F610273C6BF6A4F8C5CF927 /* Pods-KPLiveDebugger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEE32171844BCE1303F808C5225079D /* Pods-KPLiveDebugger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569E61017612A178DE44256293903C0D /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040A5D919162999B8F1533316971925 /* ConsoleDestination.swift */; };
+		6B08657E64453DEB36A94E09C76E5BCD /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED24D091F14BB12A76ECBDC9BA68A3 /* AES256CBC.swift */; };
+		7C81F953DF134F016E1F49733B652323 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DF794E32ABD43855353E1EBD67C30 /* Base64.swift */; };
+		7EEAFF7CCE31FAEBF82A09D1DB72A4B8 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46021EEC9D7360F22146011B7762C8EF /* FileDestination.swift */; };
+		886D494CC059AAA99B1550B55CAB92E5 /* KPDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB721C0D400C5091DA890DA4DEFE43 /* KPDebugViewController.swift */; };
+		910F86BCE3E93F46B01720494B85ECF0 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264C4C3148D9B1FB335769869CF66CF /* SBPlatformDestination.swift */; };
+		AE5399B8D01AD84369AFE5C26C2C1BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158CF398A3452D1E8E5195C0E5B51BD9 /* Foundation.framework */; };
+		B017136EEF63B292FAAC65A0C6ECF8E0 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E88102286B2E6EB808D8C78798C901 /* SwiftyBeaver-dummy.m */; };
+		BDD7DB1BC9821280751A79C256A95843 /* Pods-KPLiveDebugger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56228EC1A81494BDA57AB24DB61B8024 /* Pods-KPLiveDebugger_Example-dummy.m */; };
+		C11AB55C36DC71C27F829BD1B66FCA7F /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E9A090B86D7A60A17BA70C8BC4428B /* BaseDestination.swift */; };
+		C1AF42E29AC16A5725F2CAA198189082 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E4A345BA44736BD9C2B7ACD80CA55F /* SwiftyBeaver.framework */; };
+		C79DA98E84330CDF2BBEFA868AD82AD9 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B6442F079B96CDC6177D73801093C /* GoogleCloudDestination.swift */; };
+		D1000919128AE7997F93F36309E9E3B9 /* KPLiveDebugger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4830AB047B2DD83800047BE0D55FC60 /* KPLiveDebugger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4D1E350114FE5E07389563E6A3F8772 /* KPLiveDebugger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4026A1DF960C3F3F7B01554F11006B /* KPLiveDebugger-dummy.m */; };
+		FDDB6497E08E265078A246667D7AD808 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA17F7C3A99896C663E9D33E93FE06 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		31B8A350ECBC51212592E30FA5BBFE9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D882352B3244FE4A388FF2D72E6CD20A;
-			remoteInfo = "Pods-KPLiveDebugger_Example";
-		};
 		68C81ABDE1DDB6C67E0AF8F3F99C7D9E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 590AD7238A779D3F1CEBC661BE351ED6;
+			remoteGlobalIDString = 1740FECD5A74A42ADAE96F3A8246787A;
 			remoteInfo = SwiftyBeaver;
 		};
 		6BFBC58FE5F12C235F483851DEE5FF1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC9BA1C5594CBFB2FC8261B96DD8375;
+			remoteGlobalIDString = 4C585C421553A4C1C489067299C0B430;
 			remoteInfo = KPLiveDebugger;
 		};
 		F756758E7157E2BA9A32FB706BBAD971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 590AD7238A779D3F1CEBC661BE351ED6;
+			remoteGlobalIDString = 1740FECD5A74A42ADAE96F3A8246787A;
 			remoteInfo = SwiftyBeaver;
 		};
 /* End PBXContainerItemProxy section */
@@ -69,56 +59,47 @@
 /* Begin PBXFileReference section */
 		0040A5D919162999B8F1533316971925 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
 		06E9A090B86D7A60A17BA70C8BC4428B /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
+		080AC5B92077AC425998278D40C27377 /* Pods-KPLiveDebugger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		13AA6F39039C2E8C456BA84575A8523E /* Pods-KPLiveDebugger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KPLiveDebugger_Example.modulemap"; sourceTree = "<group>"; };
+		158CF398A3452D1E8E5195C0E5B51BD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1A4026A1DF960C3F3F7B01554F11006B /* KPLiveDebugger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KPLiveDebugger-dummy.m"; sourceTree = "<group>"; };
 		1FCCCAAA7F4288DF089DF823711C2FE0 /* KPLoggerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KPLoggerController.swift; path = KPLiveDebugger/Classes/Logger/KPLoggerController.swift; sourceTree = "<group>"; };
+		2800C2E99EBB0A52FB2E64B5378211FF /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
 		2C3B6442F079B96CDC6177D73801093C /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
 		31FA17F7C3A99896C663E9D33E93FE06 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
-		34E227010358035F5E4A8E5F2119D5B4 /* Pods-KPLiveDebugger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLiveDebugger_Example-frameworks.sh"; sourceTree = "<group>"; };
-		367738DAEBCB13A13A20718585691519 /* Pods-KPLiveDebugger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3755D49815CDEC5D51B1C925688D3F91 /* KPLiveDebugger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLiveDebugger-prefix.pch"; sourceTree = "<group>"; };
+		3A8DC3298F6200BD28D900DCACA84D25 /* Pods-KPLiveDebugger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLiveDebugger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42E3E34327C8A88D9838C1A4691E58C3 /* KPLiveDebugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KPLiveDebugger.xcconfig; sourceTree = "<group>"; };
 		46021EEC9D7360F22146011B7762C8EF /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
 		4639D9D741D30C6F6B21C3D2F96E6FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		47F8047CC938E6CE55FE49430E070E38 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
-		509AA72666EDC56C24C822D637B42152 /* Pods-KPLiveDebugger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KPLiveDebugger_Example.modulemap"; sourceTree = "<group>"; };
-		575C85B1472B265650120D635E3921BA /* Pods-KPLiveDebugger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLiveDebugger_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5A90987AA278B0AC7EF3207DDC2480A5 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
-		5DD35963423E814615F15B016302C738 /* Pods-KPLiveDebugger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLiveDebugger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5FF7120990E6C45183A4291496358015 /* Pods-KPLiveDebugger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Tests-Info.plist"; sourceTree = "<group>"; };
-		63C23F88A8AE506EF0EFE510083FAFB5 /* KPLiveDebugger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KPLiveDebugger-Info.plist"; sourceTree = "<group>"; };
+		499BB06402921C20E045A15084552E5E /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		56228EC1A81494BDA57AB24DB61B8024 /* Pods-KPLiveDebugger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLiveDebugger_Example-dummy.m"; sourceTree = "<group>"; };
 		6569EAAEA2F0AB8EEC166B3F9AA690DD /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
-		66660B19CADD2A6A5C9BD9FD2B2A8F38 /* KPLiveDebugger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KPLiveDebugger-dummy.m"; sourceTree = "<group>"; };
-		6A2CFE4DAACE507DA27DD4642716637B /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED352663FAD030A9283FAD6375A3669 /* Pods-KPLiveDebugger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		69A252D54EF14E0A6B2017B0654D027B /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
+		69E88102286B2E6EB808D8C78798C901 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8264C4C3148D9B1FB335769869CF66CF /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
-		8299807F64DCAA998FA6CBB0EDF1041E /* Pods-KPLiveDebugger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLiveDebugger_Tests-dummy.m"; sourceTree = "<group>"; };
-		83175AB16F985DF89D37CA9E336CC150 /* Pods-KPLiveDebugger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLiveDebugger_Example-dummy.m"; sourceTree = "<group>"; };
-		926C4A344A0AAA4D1B7402D4683E7799 /* Pods_KPLiveDebugger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KPLiveDebugger_Example.framework; path = "Pods-KPLiveDebugger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F982277B5111D6F0102631DC729685 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		851C9036935969F8342F8E07548CDF3F /* Pods_KPLiveDebugger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KPLiveDebugger_Example.framework; path = "Pods-KPLiveDebugger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7DF794E32ABD43855353E1EBD67C30 /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
-		9BB39B40A22302F3157AD195E17DC359 /* Pods-KPLiveDebugger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9BF2399E6FA70FFFD262C8C299F6C80E /* Pods_KPLiveDebugger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KPLiveDebugger_Tests.framework; path = "Pods-KPLiveDebugger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A541D87B6615CE4E03BEAC19B81EFC37 /* KPLiveDebugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KPLiveDebugger.xcconfig; sourceTree = "<group>"; };
 		A652CA9C2FA06DBC5FE287E87805CDE3 /* KPLiveDebugger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KPLiveDebugger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A83214D47B9B8A0ADE834AE8CBC672E7 /* KPLiveDebugger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLiveDebugger-prefix.pch"; sourceTree = "<group>"; };
-		B0CC7F84389725ADD2FD805FEC32D414 /* KPLiveDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KPLiveDebugger.framework; path = KPLiveDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9CDF0B4C8D6E21E4E3E48BD0744E7B /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
 		B3DB721C0D400C5091DA890DA4DEFE43 /* KPDebugViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KPDebugViewController.swift; path = KPLiveDebugger/Classes/Logger/KPDebugViewController.swift; sourceTree = "<group>"; };
+		B4830AB047B2DD83800047BE0D55FC60 /* KPLiveDebugger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLiveDebugger-umbrella.h"; sourceTree = "<group>"; };
+		B5D3FA530A2CD858A31DDCF4E0489636 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
 		B8A9298ADCA6D1BA4A10E51AC3B1EA17 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
-		BD8DC233AF2354FDF5E0F3FBFBABC9A3 /* Pods-KPLiveDebugger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Example-Info.plist"; sourceTree = "<group>"; };
+		BD84537E1F490852433FC1E1B4D3808D /* Pods-KPLiveDebugger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Example-Info.plist"; sourceTree = "<group>"; };
 		BF8276564C5D1F34FD29D2ED4059FB15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C2289F83023E8427B77FA0B42E61E9BB /* Pods-KPLiveDebugger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C5B42B57FDB7A97CF4B8E6ED13E4B8A6 /* Pods-KPLiveDebugger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLiveDebugger_Example-umbrella.h"; sourceTree = "<group>"; };
-		C710203526269E0D8504DFCD1DDAE6B2 /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
-		D07374656DF38E2EA1B37D51F10C4874 /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
-		D0DAE46F40568E76FC2F6037C686234A /* Pods-KPLiveDebugger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KPLiveDebugger_Tests.modulemap"; sourceTree = "<group>"; };
-		D3F7505DE719251B61A3B998C9DEDAD4 /* Pods-KPLiveDebugger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5E4A345BA44736BD9C2B7ACD80CA55F /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEE32171844BCE1303F808C5225079D /* Pods-KPLiveDebugger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLiveDebugger_Example-umbrella.h"; sourceTree = "<group>"; };
+		D2B9281EB32AFC9285B876BEFD6BBD98 /* Pods-KPLiveDebugger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D94893CFC5B573E31DF32E30B7669FC5 /* Pods-KPLiveDebugger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLiveDebugger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DB66FC861EC45C98347F1ABE2DF0E92C /* KPLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KPLogger.swift; path = KPLiveDebugger/Classes/Logger/KPLogger.swift; sourceTree = "<group>"; };
-		DC76C4A3701B22283F8082671BF0312B /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
-		E6769B0F2841F5C68B6E62D930611198 /* Pods-KPLiveDebugger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLiveDebugger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6B3F08518756315B2E7AABEA24C2ED1 /* KPLiveDebugger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KPLiveDebugger.modulemap; sourceTree = "<group>"; };
-		E6C79A21228F7911008AF5E2B5FDC727 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89020B7D428354CEF6EC5C079D4F80B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCE3CCEFBF6D71BC5B09C9A0EB36254E /* Pods-KPLiveDebugger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1DB75075050C3D6807A23937E324F10 /* KPLiveDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KPLiveDebugger.framework; path = KPLiveDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B45DE0DAB13493D3972B407944144A /* KPLiveDebugger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KPLiveDebugger.modulemap; sourceTree = "<group>"; };
 		F4ED24D091F14BB12A76ECBDC9BA68A3 /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
-		FE8F4084E59CDADDDCFD6AA13061E91D /* Pods-KPLiveDebugger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FFA8ADFF7D417A2698BC41830169F209 /* KPLiveDebugger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLiveDebugger-umbrella.h"; sourceTree = "<group>"; };
+		FAAE63722C8E8161B0B7DFF96DBDA631 /* KPLiveDebugger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KPLiveDebugger-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,42 +128,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6CA60FCD42F16A39C9EDB06FCB507C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FC5FBD024B117E432FA3F0E5528EEFC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0259945139152325AAEC98557B14C65B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DBA4725696E968D2E11AECAC98AA52A3 /* Pods-KPLiveDebugger_Example */,
-				05B0A345377E5A51269DDE612313D89C /* Pods-KPLiveDebugger_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		05B0A345377E5A51269DDE612313D89C /* Pods-KPLiveDebugger_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D0DAE46F40568E76FC2F6037C686234A /* Pods-KPLiveDebugger_Tests.modulemap */,
-				5DD35963423E814615F15B016302C738 /* Pods-KPLiveDebugger_Tests-acknowledgements.markdown */,
-				C2289F83023E8427B77FA0B42E61E9BB /* Pods-KPLiveDebugger_Tests-acknowledgements.plist */,
-				8299807F64DCAA998FA6CBB0EDF1041E /* Pods-KPLiveDebugger_Tests-dummy.m */,
-				5FF7120990E6C45183A4291496358015 /* Pods-KPLiveDebugger_Tests-Info.plist */,
-				575C85B1472B265650120D635E3921BA /* Pods-KPLiveDebugger_Tests-umbrella.h */,
-				D3F7505DE719251B61A3B998C9DEDAD4 /* Pods-KPLiveDebugger_Tests.debug.xcconfig */,
-				367738DAEBCB13A13A20718585691519 /* Pods-KPLiveDebugger_Tests.release.xcconfig */,
-			);
-			name = "Pods-KPLiveDebugger_Tests";
-			path = "Target Support Files/Pods-KPLiveDebugger_Tests";
-			sourceTree = "<group>";
-		};
 		06FE20EF81AEDD6A9A9E448A7D1E2AD7 /* KPLiveDebugger */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,18 +138,18 @@
 				DB66FC861EC45C98347F1ABE2DF0E92C /* KPLogger.swift */,
 				1FCCCAAA7F4288DF089DF823711C2FE0 /* KPLoggerController.swift */,
 				ECF6A19A61606DE1F36E8256F20CB41B /* Pod */,
-				ACD659ACDE9B58B7547F7A29DA9D5122 /* Support Files */,
+				78F64E44715DA3215324C3FF21F14076 /* Support Files */,
 			);
 			name = KPLiveDebugger;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		0E97C730736AA1183647C151F29430BD /* iOS */ = {
+		0E6E1DBEA48E233E947376BE3F6924E4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E89020B7D428354CEF6EC5C079D4F80B /* Foundation.framework */,
+				67C7297FB94DA7AA052224754EA4F3FB /* Pods-KPLiveDebugger_Example */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		2D87F0FAA0C91AB5C03B670F1BBA4617 /* SwiftyBeaver */ = {
@@ -217,10 +165,18 @@
 				2C3B6442F079B96CDC6177D73801093C /* GoogleCloudDestination.swift */,
 				8264C4C3148D9B1FB335769869CF66CF /* SBPlatformDestination.swift */,
 				6569EAAEA2F0AB8EEC166B3F9AA690DD /* SwiftyBeaver.swift */,
-				6BB3A040B4ECEB433DBAC50192643BA1 /* Support Files */,
+				7C155B5C57FF7E9C04504BFA75D51730 /* Support Files */,
 			);
 			name = SwiftyBeaver;
 			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		3998122AE4356BA83652F9CC00DA2CA6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				158CF398A3452D1E8E5195C0E5B51BD9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		447F4A93F8B7FFAAD1123F8F56B0FD2F /* Development Pods */ = {
@@ -231,18 +187,35 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6BB3A040B4ECEB433DBAC50192643BA1 /* Support Files */ = {
+		67C7297FB94DA7AA052224754EA4F3FB /* Pods-KPLiveDebugger_Example */ = {
 			isa = PBXGroup;
 			children = (
-				DC76C4A3701B22283F8082671BF0312B /* SwiftyBeaver.modulemap */,
-				D07374656DF38E2EA1B37D51F10C4874 /* SwiftyBeaver.xcconfig */,
-				47F8047CC938E6CE55FE49430E070E38 /* SwiftyBeaver-dummy.m */,
-				C710203526269E0D8504DFCD1DDAE6B2 /* SwiftyBeaver-Info.plist */,
-				93F982277B5111D6F0102631DC729685 /* SwiftyBeaver-prefix.pch */,
-				5A90987AA278B0AC7EF3207DDC2480A5 /* SwiftyBeaver-umbrella.h */,
+				13AA6F39039C2E8C456BA84575A8523E /* Pods-KPLiveDebugger_Example.modulemap */,
+				3A8DC3298F6200BD28D900DCACA84D25 /* Pods-KPLiveDebugger_Example-acknowledgements.markdown */,
+				D2B9281EB32AFC9285B876BEFD6BBD98 /* Pods-KPLiveDebugger_Example-acknowledgements.plist */,
+				56228EC1A81494BDA57AB24DB61B8024 /* Pods-KPLiveDebugger_Example-dummy.m */,
+				D94893CFC5B573E31DF32E30B7669FC5 /* Pods-KPLiveDebugger_Example-frameworks.sh */,
+				BD84537E1F490852433FC1E1B4D3808D /* Pods-KPLiveDebugger_Example-Info.plist */,
+				CEEE32171844BCE1303F808C5225079D /* Pods-KPLiveDebugger_Example-umbrella.h */,
+				080AC5B92077AC425998278D40C27377 /* Pods-KPLiveDebugger_Example.debug.xcconfig */,
+				DCE3CCEFBF6D71BC5B09C9A0EB36254E /* Pods-KPLiveDebugger_Example.release.xcconfig */,
+			);
+			name = "Pods-KPLiveDebugger_Example";
+			path = "Target Support Files/Pods-KPLiveDebugger_Example";
+			sourceTree = "<group>";
+		};
+		78F64E44715DA3215324C3FF21F14076 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B45DE0DAB13493D3972B407944144A /* KPLiveDebugger.modulemap */,
+				42E3E34327C8A88D9838C1A4691E58C3 /* KPLiveDebugger.xcconfig */,
+				1A4026A1DF960C3F3F7B01554F11006B /* KPLiveDebugger-dummy.m */,
+				FAAE63722C8E8161B0B7DFF96DBDA631 /* KPLiveDebugger-Info.plist */,
+				3755D49815CDEC5D51B1C925688D3F91 /* KPLiveDebugger-prefix.pch */,
+				B4830AB047B2DD83800047BE0D55FC60 /* KPLiveDebugger-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftyBeaver";
+			path = "Example/Pods/Target Support Files/KPLiveDebugger";
 			sourceTree = "<group>";
 		};
 		7AC0A76031028153678144C870C1AEC7 /* Pods */ = {
@@ -253,18 +226,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		ACD659ACDE9B58B7547F7A29DA9D5122 /* Support Files */ = {
+		7C155B5C57FF7E9C04504BFA75D51730 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6B3F08518756315B2E7AABEA24C2ED1 /* KPLiveDebugger.modulemap */,
-				A541D87B6615CE4E03BEAC19B81EFC37 /* KPLiveDebugger.xcconfig */,
-				66660B19CADD2A6A5C9BD9FD2B2A8F38 /* KPLiveDebugger-dummy.m */,
-				63C23F88A8AE506EF0EFE510083FAFB5 /* KPLiveDebugger-Info.plist */,
-				A83214D47B9B8A0ADE834AE8CBC672E7 /* KPLiveDebugger-prefix.pch */,
-				FFA8ADFF7D417A2698BC41830169F209 /* KPLiveDebugger-umbrella.h */,
+				AD9CDF0B4C8D6E21E4E3E48BD0744E7B /* SwiftyBeaver.modulemap */,
+				2800C2E99EBB0A52FB2E64B5378211FF /* SwiftyBeaver.xcconfig */,
+				69E88102286B2E6EB808D8C78798C901 /* SwiftyBeaver-dummy.m */,
+				69A252D54EF14E0A6B2017B0654D027B /* SwiftyBeaver-Info.plist */,
+				B5D3FA530A2CD858A31DDCF4E0489636 /* SwiftyBeaver-prefix.pch */,
+				499BB06402921C20E045A15084552E5E /* SwiftyBeaver-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KPLiveDebugger";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
+		A7F5CDAD0DE1F36316A6D0C748153640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E4A345BA44736BD9C2B7ACD80CA55F /* SwiftyBeaver.framework */,
+				3998122AE4356BA83652F9CC00DA2CA6 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -272,46 +254,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				447F4A93F8B7FFAAD1123F8F56B0FD2F /* Development Pods */,
-				D7279A3C90C5A8BAB5AC0088EA8A60B6 /* Frameworks */,
+				A7F5CDAD0DE1F36316A6D0C748153640 /* Frameworks */,
 				7AC0A76031028153678144C870C1AEC7 /* Pods */,
-				DF87E604E9CD597AD77465690BA0AD13 /* Products */,
-				0259945139152325AAEC98557B14C65B /* Targets Support Files */,
+				E296E32C5761144FA5C953AAEEE4FC2C /* Products */,
+				0E6E1DBEA48E233E947376BE3F6924E4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D7279A3C90C5A8BAB5AC0088EA8A60B6 /* Frameworks */ = {
+		E296E32C5761144FA5C953AAEEE4FC2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6C79A21228F7911008AF5E2B5FDC727 /* SwiftyBeaver.framework */,
-				0E97C730736AA1183647C151F29430BD /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DBA4725696E968D2E11AECAC98AA52A3 /* Pods-KPLiveDebugger_Example */ = {
-			isa = PBXGroup;
-			children = (
-				509AA72666EDC56C24C822D637B42152 /* Pods-KPLiveDebugger_Example.modulemap */,
-				E6769B0F2841F5C68B6E62D930611198 /* Pods-KPLiveDebugger_Example-acknowledgements.markdown */,
-				6ED352663FAD030A9283FAD6375A3669 /* Pods-KPLiveDebugger_Example-acknowledgements.plist */,
-				83175AB16F985DF89D37CA9E336CC150 /* Pods-KPLiveDebugger_Example-dummy.m */,
-				34E227010358035F5E4A8E5F2119D5B4 /* Pods-KPLiveDebugger_Example-frameworks.sh */,
-				BD8DC233AF2354FDF5E0F3FBFBABC9A3 /* Pods-KPLiveDebugger_Example-Info.plist */,
-				C5B42B57FDB7A97CF4B8E6ED13E4B8A6 /* Pods-KPLiveDebugger_Example-umbrella.h */,
-				9BB39B40A22302F3157AD195E17DC359 /* Pods-KPLiveDebugger_Example.debug.xcconfig */,
-				FE8F4084E59CDADDDCFD6AA13061E91D /* Pods-KPLiveDebugger_Example.release.xcconfig */,
-			);
-			name = "Pods-KPLiveDebugger_Example";
-			path = "Target Support Files/Pods-KPLiveDebugger_Example";
-			sourceTree = "<group>";
-		};
-		DF87E604E9CD597AD77465690BA0AD13 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0CC7F84389725ADD2FD805FEC32D414 /* KPLiveDebugger.framework */,
-				926C4A344A0AAA4D1B7402D4683E7799 /* Pods_KPLiveDebugger_Example.framework */,
-				9BF2399E6FA70FFFD262C8C299F6C80E /* Pods_KPLiveDebugger_Tests.framework */,
-				6A2CFE4DAACE507DA27DD4642716637B /* SwiftyBeaver.framework */,
+				E1DB75075050C3D6807A23937E324F10 /* KPLiveDebugger.framework */,
+				851C9036935969F8342F8E07548CDF3F /* Pods_KPLiveDebugger_Example.framework */,
+				7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,14 +292,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		977479FE0804BB0B04E3AC4796909B5E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69F50EFE52AD305DCBDF53AC3113B4E5 /* Pods-KPLiveDebugger_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B1391306DFF60A9B0A4F8B23C8E53C22 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,12 +311,12 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		590AD7238A779D3F1CEBC661BE351ED6 /* SwiftyBeaver */ = {
+		1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1B4BCA1C58F0E5E9ABC9E5892A4A25B /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
 			buildPhases = (
 				B1391306DFF60A9B0A4F8B23C8E53C22 /* Headers */,
-				B723D9D5358F3C5F8A46F9EFDC08AFB4 /* Sources */,
+				A8D21FFB6A4A1E31852D4EADC36E49AF /* Sources */,
 				597A77105081855FBD4539D7417359CA /* Frameworks */,
 				1D6EE7F3450068F104AD5448B1681386 /* Resources */,
 			);
@@ -379,29 +326,10 @@
 			);
 			name = SwiftyBeaver;
 			productName = SwiftyBeaver;
-			productReference = 6A2CFE4DAACE507DA27DD4642716637B /* SwiftyBeaver.framework */;
+			productReference = 7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8DC9BA1C5594CBFB2FC8261B96DD8375 /* KPLiveDebugger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F369DD9C532DD2210553C86D40F487FA /* Build configuration list for PBXNativeTarget "KPLiveDebugger" */;
-			buildPhases = (
-				262A4ADEA386D37EC99922F0C046586C /* Headers */,
-				7C7C5C582E0451746BB01F600079B06F /* Sources */,
-				533FFE7FE8C6D1FAFA0E63BC1E83941A /* Frameworks */,
-				3DD6A672326033529E60561EA8A74BF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				409F23352D10F9DF88174038B1A63102 /* PBXTargetDependency */,
-			);
-			name = KPLiveDebugger;
-			productName = KPLiveDebugger;
-			productReference = B0CC7F84389725ADD2FD805FEC32D414 /* KPLiveDebugger.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D882352B3244FE4A388FF2D72E6CD20A /* Pods-KPLiveDebugger_Example */ = {
+		23DA1F2410C7FB4BA2337F042445022E /* Pods-KPLiveDebugger_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E17CC0311DF55F9FFADB537DEEA069 /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Example" */;
 			buildPhases = (
@@ -418,26 +346,26 @@
 			);
 			name = "Pods-KPLiveDebugger_Example";
 			productName = "Pods-KPLiveDebugger_Example";
-			productReference = 926C4A344A0AAA4D1B7402D4683E7799 /* Pods_KPLiveDebugger_Example.framework */;
+			productReference = 851C9036935969F8342F8E07548CDF3F /* Pods_KPLiveDebugger_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DD56B912715356FE3ED9810CEC4EC890 /* Pods-KPLiveDebugger_Tests */ = {
+		4C585C421553A4C1C489067299C0B430 /* KPLiveDebugger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 527F3F1548BA845D2D07C71408423774 /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Tests" */;
+			buildConfigurationList = F369DD9C532DD2210553C86D40F487FA /* Build configuration list for PBXNativeTarget "KPLiveDebugger" */;
 			buildPhases = (
-				977479FE0804BB0B04E3AC4796909B5E /* Headers */,
-				0BD338C62508C0C48A630795F6C01A5F /* Sources */,
-				FF6CA60FCD42F16A39C9EDB06FCB507C /* Frameworks */,
-				69239DF27D212848994C56137EC24915 /* Resources */,
+				262A4ADEA386D37EC99922F0C046586C /* Headers */,
+				5E72301C6A03EC75F7DAB0203C62EECA /* Sources */,
+				533FFE7FE8C6D1FAFA0E63BC1E83941A /* Frameworks */,
+				3DD6A672326033529E60561EA8A74BF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				93F13C6BD4CC3A45AEBD20A4DA68E2A1 /* PBXTargetDependency */,
+				409F23352D10F9DF88174038B1A63102 /* PBXTargetDependency */,
 			);
-			name = "Pods-KPLiveDebugger_Tests";
-			productName = "Pods-KPLiveDebugger_Tests";
-			productReference = 9BF2399E6FA70FFFD262C8C299F6C80E /* Pods_KPLiveDebugger_Tests.framework */;
+			name = KPLiveDebugger;
+			productName = KPLiveDebugger;
+			productReference = E1DB75075050C3D6807A23937E324F10 /* KPLiveDebugger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -457,14 +385,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DF87E604E9CD597AD77465690BA0AD13 /* Products */;
+			productRefGroup = E296E32C5761144FA5C953AAEEE4FC2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DC9BA1C5594CBFB2FC8261B96DD8375 /* KPLiveDebugger */,
-				D882352B3244FE4A388FF2D72E6CD20A /* Pods-KPLiveDebugger_Example */,
-				DD56B912715356FE3ED9810CEC4EC890 /* Pods-KPLiveDebugger_Tests */,
-				590AD7238A779D3F1CEBC661BE351ED6 /* SwiftyBeaver */,
+				4C585C421553A4C1C489067299C0B430 /* KPLiveDebugger */,
+				23DA1F2410C7FB4BA2337F042445022E /* Pods-KPLiveDebugger_Example */,
+				1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */,
 			);
 		};
 /* End PBXProject section */
@@ -484,13 +411,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69239DF27D212848994C56137EC24915 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E00A758C27B22F1E84EC17C5D01E0901 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,11 +421,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BD338C62508C0C48A630795F6C01A5F /* Sources */ = {
+		5E72301C6A03EC75F7DAB0203C62EECA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				855AD62554DA816E92C6C0DEF4F2E4A3 /* Pods-KPLiveDebugger_Tests-dummy.m in Sources */,
+				886D494CC059AAA99B1550B55CAB92E5 /* KPDebugViewController.swift in Sources */,
+				D4D1E350114FE5E07389563E6A3F8772 /* KPLiveDebugger-dummy.m in Sources */,
+				2FA24F1144BB687E87E6F8D02345AD10 /* KPLogger.swift in Sources */,
+				4A2119C3B43C81166D0D1968850EE137 /* KPLoggerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,32 +440,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C7C5C582E0451746BB01F600079B06F /* Sources */ = {
+		A8D21FFB6A4A1E31852D4EADC36E49AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EEE6EF0D5B6722E30356A67557C29F /* KPDebugViewController.swift in Sources */,
-				BC6F7A6F94264EF0A28A9B46CDB69EE1 /* KPLiveDebugger-dummy.m in Sources */,
-				6D7E880768C51462CE2129C6B6792274 /* KPLogger.swift in Sources */,
-				5D421C0D637925B73B65B706726BE983 /* KPLoggerController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B723D9D5358F3C5F8A46F9EFDC08AFB4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3755DCC76A53A6F96F17AD0805A66116 /* AES256CBC.swift in Sources */,
-				AED5C478EBC88CC8BF7C5DD6491BC1B6 /* Base64.swift in Sources */,
-				FF9E36A12DD5EFC28EA3D169A1F65E9A /* BaseDestination.swift in Sources */,
-				F828A27656108FB87EA55AD2650F23EF /* ConsoleDestination.swift in Sources */,
-				8F6172BEED76BE6604ADEB90CB16F62D /* Extensions.swift in Sources */,
-				60BEFDD089F4E50ED6484D9A5A004314 /* FileDestination.swift in Sources */,
-				92A427C1E5FBA491E73E31C5EFB8EAF7 /* Filter.swift in Sources */,
-				C39490FFB4787B92799065E8745CB014 /* GoogleCloudDestination.swift in Sources */,
-				C2EB3D7E53BEB9DD0F8B09D50D1AA514 /* SBPlatformDestination.swift in Sources */,
-				87A0D77265C0C5DEFD51DE64FD8DEEB2 /* SwiftyBeaver-dummy.m in Sources */,
-				B1A0F82FFDDEBCE4D2A8A2466F339D64 /* SwiftyBeaver.swift in Sources */,
+				6B08657E64453DEB36A94E09C76E5BCD /* AES256CBC.swift in Sources */,
+				7C81F953DF134F016E1F49733B652323 /* Base64.swift in Sources */,
+				C11AB55C36DC71C27F829BD1B66FCA7F /* BaseDestination.swift in Sources */,
+				569E61017612A178DE44256293903C0D /* ConsoleDestination.swift in Sources */,
+				0E110E6702094DE10C5C55FBD6FDA208 /* Extensions.swift in Sources */,
+				7EEAFF7CCE31FAEBF82A09D1DB72A4B8 /* FileDestination.swift in Sources */,
+				FDDB6497E08E265078A246667D7AD808 /* Filter.swift in Sources */,
+				C79DA98E84330CDF2BBEFA868AD82AD9 /* GoogleCloudDestination.swift in Sources */,
+				910F86BCE3E93F46B01720494B85ECF0 /* SBPlatformDestination.swift in Sources */,
+				B017136EEF63B292FAAC65A0C6ECF8E0 /* SwiftyBeaver-dummy.m in Sources */,
+				462492ECC8DCC1AA29261EF6E109D9D3 /* SwiftyBeaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,35 +464,90 @@
 		0F705EB206E306EFABD0FC3613486350 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KPLiveDebugger;
-			target = 8DC9BA1C5594CBFB2FC8261B96DD8375 /* KPLiveDebugger */;
+			target = 4C585C421553A4C1C489067299C0B430 /* KPLiveDebugger */;
 			targetProxy = 6BFBC58FE5F12C235F483851DEE5FF1D /* PBXContainerItemProxy */;
 		};
 		409F23352D10F9DF88174038B1A63102 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyBeaver;
-			target = 590AD7238A779D3F1CEBC661BE351ED6 /* SwiftyBeaver */;
+			target = 1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */;
 			targetProxy = F756758E7157E2BA9A32FB706BBAD971 /* PBXContainerItemProxy */;
-		};
-		93F13C6BD4CC3A45AEBD20A4DA68E2A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KPLiveDebugger_Example";
-			target = D882352B3244FE4A388FF2D72E6CD20A /* Pods-KPLiveDebugger_Example */;
-			targetProxy = 31B8A350ECBC51212592E30FA5BBFE9C /* PBXContainerItemProxy */;
 		};
 		AB34C140D010ED3D1CBDA38FB3F77E39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyBeaver;
-			target = 590AD7238A779D3F1CEBC661BE351ED6 /* SwiftyBeaver */;
+			target = 1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */;
 			targetProxy = 68C81ABDE1DDB6C67E0AF8F3F99C7D9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08B0402D58D74C87979A6A3E62912681 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8F4084E59CDADDDCFD6AA13061E91D /* Pods-KPLiveDebugger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		901CE9AEF1224B23EFEF69BE19E6480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE3CCEFBF6D71BC5B09C9A0EB36254E /* Pods-KPLiveDebugger_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -593,7 +560,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example.modulemap";
@@ -611,7 +578,75 @@
 			};
 			name = Release;
 		};
-		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+		97265D19B8FD822E5A2092149306719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E3E34327C8A88D9838C1A4691E58C3 /* KPLiveDebugger.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KPLiveDebugger/KPLiveDebugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger.modulemap";
+				PRODUCT_MODULE_NAME = KPLiveDebugger;
+				PRODUCT_NAME = KPLiveDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9804B3D6BDA69587BC8F16C24E55D4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080AC5B92077AC425998278D40C27377 /* Pods-KPLiveDebugger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -662,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -675,78 +710,11 @@
 			};
 			name = Debug;
 		};
-		2813D249CC9C502E0589B621EDCBD99B /* Debug */ = {
+		F04C71988046B4EF184A926F84FE935B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3F7505DE719251B61A3B998C9DEDAD4 /* Pods-KPLiveDebugger_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2800C2E99EBB0A52FB2E64B5378211FF /* SwiftyBeaver.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Pods-KPLiveDebugger_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Pods-KPLiveDebugger_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B5F25BDE576DB4EBDCCB2DE59D79660 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BB39B40A22302F3157AD195E17DC359 /* Pods-KPLiveDebugger_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Example/Pods-KPLiveDebugger_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8EDA8CB5EA67BEEA20DC4BFFD89747A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D07374656DF38E2EA1B37D51F10C4874 /* SwiftyBeaver.xcconfig */;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -767,134 +735,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A2619C2912C6A651434F5ED0A728F604 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 367738DAEBCB13A13A20718585691519 /* Pods-KPLiveDebugger_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Pods-KPLiveDebugger_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KPLiveDebugger_Tests/Pods-KPLiveDebugger_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B974DE19BEFADFE84D9A422A09E16DC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A541D87B6615CE4E03BEAC19B81EFC37 /* KPLiveDebugger.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KPLiveDebugger/KPLiveDebugger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger.modulemap";
-				PRODUCT_MODULE_NAME = KPLiveDebugger;
-				PRODUCT_NAME = KPLiveDebugger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -902,10 +743,11 @@
 			};
 			name = Release;
 		};
-		BC81A1F50FFEE65BEFB9C557EAB15018 /* Release */ = {
+		F8F642B42FDC8C0EED39A8E40129851F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D07374656DF38E2EA1B37D51F10C4874 /* SwiftyBeaver.xcconfig */;
+			baseConfigurationReference = 2800C2E99EBB0A52FB2E64B5378211FF /* SwiftyBeaver.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -926,18 +768,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C88AB4042DE3A27C557D60524F34F0FE /* Debug */ = {
+		FE69C5426F221B0497C84E57A7748B8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A541D87B6615CE4E03BEAC19B81EFC37 /* KPLiveDebugger.xcconfig */;
+			baseConfigurationReference = 42E3E34327C8A88D9838C1A4691E58C3 /* KPLiveDebugger.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -951,7 +793,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KPLiveDebugger/KPLiveDebugger-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KPLiveDebugger/KPLiveDebugger.modulemap";
 				PRODUCT_MODULE_NAME = KPLiveDebugger;
@@ -959,12 +801,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -972,17 +815,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196DFA3E4A09A28224918543529A1885 /* Debug */,
-				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		527F3F1548BA845D2D07C71408423774 /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2813D249CC9C502E0589B621EDCBD99B /* Debug */,
-				A2619C2912C6A651434F5ED0A728F604 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -990,8 +824,8 @@
 		65E17CC0311DF55F9FFADB537DEEA069 /* Build configuration list for PBXNativeTarget "Pods-KPLiveDebugger_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B5F25BDE576DB4EBDCCB2DE59D79660 /* Debug */,
-				08B0402D58D74C87979A6A3E62912681 /* Release */,
+				9804B3D6BDA69587BC8F16C24E55D4B3 /* Debug */,
+				901CE9AEF1224B23EFEF69BE19E6480F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -999,8 +833,8 @@
 		B1B4BCA1C58F0E5E9ABC9E5892A4A25B /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EDA8CB5EA67BEEA20DC4BFFD89747A1 /* Debug */,
-				BC81A1F50FFEE65BEFB9C557EAB15018 /* Release */,
+				F8F642B42FDC8C0EED39A8E40129851F /* Debug */,
+				F04C71988046B4EF184A926F84FE935B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1008,8 +842,8 @@
 		F369DD9C532DD2210553C86D40F487FA /* Build configuration list for PBXNativeTarget "KPLiveDebugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C88AB4042DE3A27C557D60524F34F0FE /* Debug */,
-				B974DE19BEFADFE84D9A422A09E16DC4 /* Release */,
+				97265D19B8FD822E5A2092149306719C /* Debug */,
+				FE69C5426F221B0497C84E57A7748B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

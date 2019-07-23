@@ -62,7 +62,7 @@ class KPLoggerController: UIViewController,KPScreenLogDelegate {
       clearButton = UIButton(type: .custom)
       clearButton.frame = CGRect(x: 0, y: 10, width: 74, height: 44)
       clearButton.setTitleColor(UIColor.white, for: .normal)
-      clearButton.addTarget(self, action: #selector(KPLoggerController.clearLogs), for: UIControlEvents.touchUpInside)
+      clearButton.addTarget(self, action: #selector(KPLoggerController.clearLogs), for: UIControl.Event.touchUpInside)
       clearButton.setTitle("clear", for: .normal)
     }
     return clearButton

@@ -1,11 +1,9 @@
 use_frameworks!
 
+platform :ios, '11.0'
+
 target 'KPLiveDebugger_Example' do
   pod 'KPLiveDebugger', :path => '../'
 
-  target 'KPLiveDebugger_Tests' do
-    inherit! :search_paths
 
-    
-  end
 end

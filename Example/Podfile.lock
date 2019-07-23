@@ -1,5 +1,5 @@
 PODS:
-  - KPLiveDebugger (0.1.0):
+  - KPLiveDebugger (1.0.1):
     - SwiftyBeaver
   - SwiftyBeaver (1.7.0)
 
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KPLiveDebugger: 183452f8a3da1e3531b17e6849c1861b3d21942e
+  KPLiveDebugger: e362a45bf89f97e51be89f391bdba2b99dce5f83
   SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
 
-PODFILE CHECKSUM: 9eff02099bbbaac357fd3cc387a4ef9f5eaf05e2
+PODFILE CHECKSUM: a8da49fb8af9b1c70a3b24a06fa30f81b9c848aa
 
-COCOAPODS: 1.6.2
+COCOAPODS: 1.7.5

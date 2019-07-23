@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KPLiveDebugger'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'KPLiveDebugger is a live onScreen debugger which can show logs on screen'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kunal08pandey/KPLiveDebugger.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'KPLiveDebugger/Classes/**/*'
   
