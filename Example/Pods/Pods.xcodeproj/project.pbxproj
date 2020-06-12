@@ -71,32 +71,32 @@
 		3A8DC3298F6200BD28D900DCACA84D25 /* Pods-KPLiveDebugger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPLiveDebugger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42E3E34327C8A88D9838C1A4691E58C3 /* KPLiveDebugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KPLiveDebugger.xcconfig; sourceTree = "<group>"; };
 		46021EEC9D7360F22146011B7762C8EF /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
-		4639D9D741D30C6F6B21C3D2F96E6FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4639D9D741D30C6F6B21C3D2F96E6FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		499BB06402921C20E045A15084552E5E /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
 		56228EC1A81494BDA57AB24DB61B8024 /* Pods-KPLiveDebugger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPLiveDebugger_Example-dummy.m"; sourceTree = "<group>"; };
 		6569EAAEA2F0AB8EEC166B3F9AA690DD /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
 		69A252D54EF14E0A6B2017B0654D027B /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
 		69E88102286B2E6EB808D8C78798C901 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
-		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8264C4C3148D9B1FB335769869CF66CF /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
-		851C9036935969F8342F8E07548CDF3F /* Pods_KPLiveDebugger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KPLiveDebugger_Example.framework; path = "Pods-KPLiveDebugger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		851C9036935969F8342F8E07548CDF3F /* Pods_KPLiveDebugger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPLiveDebugger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7DF794E32ABD43855353E1EBD67C30 /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A652CA9C2FA06DBC5FE287E87805CDE3 /* KPLiveDebugger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KPLiveDebugger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A652CA9C2FA06DBC5FE287E87805CDE3 /* KPLiveDebugger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KPLiveDebugger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD9CDF0B4C8D6E21E4E3E48BD0744E7B /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
 		B3DB721C0D400C5091DA890DA4DEFE43 /* KPDebugViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KPDebugViewController.swift; path = KPLiveDebugger/Classes/Logger/KPDebugViewController.swift; sourceTree = "<group>"; };
 		B4830AB047B2DD83800047BE0D55FC60 /* KPLiveDebugger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPLiveDebugger-umbrella.h"; sourceTree = "<group>"; };
 		B5D3FA530A2CD858A31DDCF4E0489636 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
 		B8A9298ADCA6D1BA4A10E51AC3B1EA17 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
 		BD84537E1F490852433FC1E1B4D3808D /* Pods-KPLiveDebugger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Example-Info.plist"; sourceTree = "<group>"; };
-		BF8276564C5D1F34FD29D2ED4059FB15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF8276564C5D1F34FD29D2ED4059FB15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5E4A345BA44736BD9C2B7ACD80CA55F /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEE32171844BCE1303F808C5225079D /* Pods-KPLiveDebugger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPLiveDebugger_Example-umbrella.h"; sourceTree = "<group>"; };
 		D2B9281EB32AFC9285B876BEFD6BBD98 /* Pods-KPLiveDebugger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPLiveDebugger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D94893CFC5B573E31DF32E30B7669FC5 /* Pods-KPLiveDebugger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPLiveDebugger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DB66FC861EC45C98347F1ABE2DF0E92C /* KPLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KPLogger.swift; path = KPLiveDebugger/Classes/Logger/KPLogger.swift; sourceTree = "<group>"; };
 		DCE3CCEFBF6D71BC5B09C9A0EB36254E /* Pods-KPLiveDebugger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPLiveDebugger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E1DB75075050C3D6807A23937E324F10 /* KPLiveDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KPLiveDebugger.framework; path = KPLiveDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DB75075050C3D6807A23937E324F10 /* KPLiveDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KPLiveDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B45DE0DAB13493D3972B407944144A /* KPLiveDebugger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KPLiveDebugger.modulemap; sourceTree = "<group>"; };
 		F4ED24D091F14BB12A76ECBDC9BA68A3 /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
 		FAAE63722C8E8161B0B7DFF96DBDA631 /* KPLiveDebugger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KPLiveDebugger-Info.plist"; sourceTree = "<group>"; };
@@ -167,7 +167,6 @@
 				6569EAAEA2F0AB8EEC166B3F9AA690DD /* SwiftyBeaver.swift */,
 				7C155B5C57FF7E9C04504BFA75D51730 /* Support Files */,
 			);
-			name = SwiftyBeaver;
 			path = SwiftyBeaver;
 			sourceTree = "<group>";
 		};
@@ -375,7 +374,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,6 +382,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = E296E32C5761144FA5C953AAEEE4FC2C /* Products */;
@@ -535,8 +535,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -547,7 +546,6 @@
 			baseConfigurationReference = DCE3CCEFBF6D71BC5B09C9A0EB36254E /* Pods-KPLiveDebugger_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -582,7 +580,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42E3E34327C8A88D9838C1A4691E58C3 /* KPLiveDebugger.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -616,7 +613,6 @@
 			baseConfigurationReference = 080AC5B92077AC425998278D40C27377 /* Pods-KPLiveDebugger_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -714,7 +710,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2800C2E99EBB0A52FB2E64B5378211FF /* SwiftyBeaver.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -747,7 +742,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2800C2E99EBB0A52FB2E64B5378211FF /* SwiftyBeaver.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -779,7 +773,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42E3E34327C8A88D9838C1A4691E58C3 /* KPLiveDebugger.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
